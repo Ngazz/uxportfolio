@@ -1,0 +1,271 @@
+@import url(/styles/universal.css);
+@media screen and (min-width:250px) and (max-width:375px) {
+    h2 {
+        margin-top: 15vh;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .contact-container {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 4em;
+    }
+    .contact-info {
+        margin-top: 5vh;
+        background-color: #090909;
+        border-radius: 0.75rem;
+        padding: 0.5rem;
+        .mode {
+            width: fit-content;
+            font-size: 1rem;
+        }
+        button {
+            height: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: #12126f;
+            width: 100%;
+            // margin-top: 2em;
+            border: #12126f solid 2px;
+            letter-spacing: 5%;
+        }
+        .primary-cta {
+            border: none;
+        }
+        .info {
+            margin: 2vh 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+// 
+@media screen and (min-width:375px) and (max-width:450px) {
+    h2 {
+        margin-top: 15vh;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .contact-container {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 4em;
+    }
+    .contact-info {
+        margin-top: 5vh;
+        background-color: #090909;
+        border-radius: 0.75rem;
+        padding: 0.5rem;
+        .mode {
+            width: fit-content;
+            font-size: 1rem;
+        }
+        button {
+            height: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: #12126f;
+            width: 100%;
+            // margin-top: 2em;
+            border: #12126f solid 2px;
+            letter-spacing: 5%;
+        }
+        .primary-cta {
+            border: none;
+        }
+        .info {
+            margin: 2vh 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:550px) {
+    h2 {
+        margin-top: 15vh;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .contact-container {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        width: 100%;
+        margin-bottom: 4em;
+    }
+    .contact-info {
+        margin-top: 5vh;
+        background-color: #090909;
+        border-radius: 0.75rem;
+        padding: 0.5rem;
+        width: 48%;
+        .mode {
+            width: fit-content;
+            font-size: 1rem;
+        }
+        button {
+            height: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: #12126f;
+            width: 100%;
+            // margin-top: 2em;
+            border: #12126f solid 2px;
+            letter-spacing: 5%;
+        }
+        .primary-cta {
+            border: none;
+        }
+        .info {
+            margin: 2vh 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (min-width:550px) and (max-width:650px) {
+    h2 {
+        margin-top: 15vh;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .contact-container {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        width: 100%;
+        margin-bottom: 4em;
+    }
+    .contact-info {
+        margin-top: 5vh;
+        background-color: #090909;
+        border-radius: 0.75rem;
+        padding: 0.5rem;
+        width: 48%;
+        .mode {
+            width: fit-content;
+            font-size: 1rem;
+        }
+        button {
+            height: 2rem;
+            text-align: center;
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: #12126f;
+            width: 100%;
+            // margin-top: 2em;
+            border: #12126f solid 2px;
+            letter-spacing: 5%;
+        }
+        .primary-cta {
+            border: none;
+        }
+        .info {
+            margin: 2vh 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:768px) {
+    h2 {
+        margin-top: 15vh;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .contact-container {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        width: 100%;
+        margin-bottom: 4em;
+    }
+    .contact-info {
+        margin-top: 5vh;
+        background-color: #090909;
+        border-radius: 1rem;
+        padding: 0.75rem;
+        width: 48%;
+        .mode {
+            width: fit-content;
+            font-size: 1rem;
+        }
+        button {
+            height: 2rem;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #12126f;
+            width: 100%;
+            // margin-top: 2em;
+            border: #12126f solid 0.125px;
+            letter-spacing: 5%;
+        }
+        .primary-cta {
+            border: none;
+        }
+        .info {
+            margin: 2vh 0;
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    h2 {
+        margin-top: 15vh;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .contact-container {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        width: 100%;
+        margin-bottom: 4em;
+    }
+    .contact-info {
+        margin-top: 5vh;
+        background-color: #090909;
+        border-radius: 1rem;
+        padding: 0.75rem;
+        width: 48%;
+        .mode {
+            width: fit-content;
+            font-size: 1rem;
+        }
+        button {
+            height: 2rem;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #12126f;
+            width: 100%;
+            // margin-top: 2em;
+            border: #12126f solid 2px;
+            letter-spacing: 5%;
+        }
+        .primary-cta {
+            border: none;
+        }
+        .info {
+            margin: 2vh 0;
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio Ngahu</title>
+    <link rel="stylesheet" href="../../styles/styles.css" type="text/css">
+    <link rel="stylesheet" href="../../styles/work-styles/work.css">
+    <link rel="stylesheet" href="../pages/COMPONENTS/navBar.css">
+    <link rel="stylesheet" href="../pages/COMPONENTS/footer.css">
+
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <div class="nav-bar">
+        <div class="container">
+            <div class="nav-bar-items">
+                <div class="logo">
+                    <a href="#"><img src="..\..\Images\logo.svg" alt="Logo" srcset="" type="image/svg"></a>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="../../index.html" class="active"><span>00</span>Home</a></li>
+                    <li><a href="..\..\pages\portfolio.html"><span>01</span>Work</a></li>
+                    <li><a href="..\..\pages\About.html"><span>02</span>About Me</a></li>
+                    <li><a href="../../pages\Contact.html"><span>03</span>Contacts</a></li>
+                </ul>
+
+                <div class="burger-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="portfolio-hero">
+            <h2 class="welcome">Featured Projects</h2>
+
+            <section class="work">
+
+                <div class="work-cards-section">
+
+                    <!-- CARD ONE -->
+                    <div class="card">
+                        <div class="project-img"><img src="..\..\Images\Designs\Mpesa\wireframe.svg" alt="Project image" srcset="" type="image/svg"></div>
+                        <div class="more">
+                            <div class="name">Project Name</div>
+                            <div class="cta-projects">
+                                <button class="platform">Web</button>
+                                <button class="case-study"><a href="..\case-studies\mpesa.html"><img src="../../images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Test Card -->
+
+                    <!-- CARD TWO -->
+                    <div class="card">
+                        <div class="project-img"><img src="../../images/search image.jpg" alt="Project image" srcset="" type="image/png"></div>
+                        <div class="more">
+                            <div class="name">Project Name</div>
+                            <div class="cta-projects">
+                                <button class="platform">Web</button>
+                                <button class="case-study"><a href=""><img src="../../images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD THREE -->
+                    <div class="card">
+                        <div class="project-img"><img src="../../images/search image.jpg" alt="Project image" srcset="" type="image/png"></div>
+                        <div class="more">
+                            <div class="name">Project Name</div>
+                            <div class="cta-projects">
+                                <button class="platform">Smartwatch</button>
+                                <button class="case-study"><a href=""><img src="../../images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD FOUR -->
+                    <div class="card">
+                        <div class="project-img"><img src="../../images/search image.jpg" alt="Project image" srcset="" type="image/png"></div>
+                        <div class="more">
+                            <div class="name">Project Name</div>
+                            <div class="cta-projects">
+                                <button class="platform">Web</button>
+                                <button class="case-study"><a href=""><img src="../../images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+            </section>
+
+            <section class="brand-identity">
+                <h2>Brand Identity</h2>
+                <div class="brand-identity-cards">
+                    <img src="../../images/donor.jpg" alt="donor" srcset="" type="image/jpg">
+                    <img src="../../images/digiRafiki.jpg" alt="digirafiki" srcset="" type="image/jpg">
+                </div>
+            </section>
+            <p class="see-more">See more on
+                <a href="htttps://www.dribbble/com/Ngahu"><img src="..\..\Images\dribble.svg" alt="dribbble" type="image/svg">Dribbble.com</a>
+            </p>
+
+
+            <!-- Footer -->
+            <footer>
+                <div class="a ">
+                    <div id="logo ">
+                        <a href="..\..\index.html "><img src="..\..\Images\logo.svg " alt="Logo " srcset=" " type="image/svg "></a>
+                    </div>
+
+                    <div class="footer-links ">
+                        <li><a href="..\..\index.html ">Home</a></li>
+                        <li><a href="..\pages\portfolio.html ">Work</a></li>
+                        <li><a href="..\pages\About.html ">About Me</a></li>
+                        <li><a href="..\pages\Contact.html ">Contacts</a></li>
+                    </div>
+                </div>
+
+                <div class="b ">
+                    <div class="social-icons ">
+                        <img src="..\../images/dribble.svg " alt="dribbble " type="image/svg ">
+                        <img src="..\..\Images\Assets\github.svg " alt="Github ">
+                        <img src="..\..\Images\Assets\linkedin.svg " alt="LinkedIn " type="image/svg ">
+                        <img src="..\..\Images\Assets\x.svg " alt="X " type="image/svg ">
+                    </div>
+
+                    <div class="copyright ">&copy;Powered By Ngahu.</div>
+                </div>
+            </footer>
+            </div>
+</body>
+
+</html>
+
+
+<script>
+    const navSlide = () => {
+        const burger = document.querySelector('.burger-icon');
+        const nav = document.querySelector('.nav-links');
+        const navLinks = document.querySelectorAll('.nav-links li');
+
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = ' ';
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index/7+.1}s`;
+                }
+            });
+
+            burger.classList.toggle('toggle');
+        });
+
+
+    }
+    navSlide();
+</script>

@@ -1,0 +1,18 @@
+@import url(/styles/universal.css);
+@media screen and (min-width: 250px) and (max-width: 375px) {
+  .about-me {
+    margin-top: 5em;
+  }
+  .about-me button {
+    margin: 15vh 0;
+  }
+  .about-me h2 {
+    margin-top: 10vh;
+    font-size: 1.125rem;
+  }
+  .about-me .who-is-me {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5em 0;
+  }
+}/*# sourceMappingURL=about.css.map */

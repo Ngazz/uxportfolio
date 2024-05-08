@@ -1,0 +1,292 @@
+@import url(universal.css);
+.skill-img {
+  margin-top: 0.5rem;
+}
+.skill-img img {
+  width: 2.5rem;
+}
+
+@media screen and (min-width: 250px) and (max-width: 375px) {
+  p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+  .hero .greeting {
+    font-size: 1rem;
+  }
+  .hero .description {
+    font-size: 1.25rem;
+  }
+  .hero .cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.75rem;
+  }
+  .hero .cta button {
+    width: 10rem;
+  }
+  .send-mail {
+    margin: 4rem 0;
+  }
+  .send-mail p {
+    font-size: 1rem;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .send-mail .email-me-cta button {
+    width: 10rem;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+  .hero .greeting {
+    font-size: 1rem;
+  }
+  .hero .description {
+    font-size: 1.25rem;
+  }
+  .hero .cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+  }
+  .hero .cta button {
+    width: 10rem;
+  }
+  .send-mail {
+    margin: 5vh 0;
+  }
+  .send-mail p {
+    font-size: 1rem;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .send-mail .email-me-cta button {
+    width: 10rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+  .hero .greeting {
+    font-size: 1rem;
+  }
+  .hero .description {
+    font-size: 1.25rem;
+  }
+  .hero .cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .hero .cta button {
+    width: 10rem;
+  }
+  .send-mail {
+    margin: 5vh 0;
+  }
+  .send-mail p {
+    font-size: 1rem;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .send-mail .email-me-cta button {
+    width: 10rem;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+  .hero {
+    gap: 8vh;
+  }
+  .hero .greeting {
+    font-size: 1rem;
+  }
+  .hero .description {
+    font-size: 1.25rem;
+  }
+  .hero .cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .hero .cta button {
+    width: 10rem;
+  }
+  .skills .skills-section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .send-mail {
+    margin: 10vh 0;
+  }
+  .send-mail p {
+    font-size: 1rem;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .send-mail .email-me-cta button {
+    width: 10rem;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 768px) {
+  p {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+  }
+  .hero {
+    gap: 8vh;
+  }
+  .hero .greeting {
+    font-size: 1rem;
+  }
+  .hero .description {
+    font-size: 1.25rem;
+  }
+  .hero .cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .hero .cta button {
+    width: 10rem;
+  }
+  .skills .skills-section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .send-mail {
+    margin: 10vh 0;
+  }
+  .send-mail p {
+    font-size: 1rem;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .send-mail .email-me-cta button {
+    width: 10rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  p {
+    margin: 1.5rem 0;
+    font-size: 1.125rem;
+  }
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+  .hero .greeting {
+    font-size: 1.25rem;
+  }
+  .hero .description {
+    font-size: 1.5rem;
+  }
+  .hero .cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .hero .cta button {
+    width: 10rem;
+  }
+  .skills .skills-section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .send-mail {
+    margin: 10vh 0;
+  }
+  .send-mail p {
+    font-size: 1.125rem;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .send-mail .email-me-cta button {
+    width: 10rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  p {
+    margin: 1.5rem 0;
+    font-size: 1.125rem;
+  }
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+  .hero .greeting {
+    font-size: 1.5rem;
+  }
+  .hero .description {
+    font-size: 2rem;
+  }
+  .hero .cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 1rem;
+  }
+  .skills .skills-section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .send-mail {
+    margin: 10vh 0;
+  }
+  .send-mail p {
+    font-size: 1.125rem;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .send-mail .email-me-cta button {
+    width: 10rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

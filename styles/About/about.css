@@ -1,0 +1,512 @@
+@import url(../universal.scss);
+.about-me {
+  margin-top: 8em;
+  gap: 10vh;
+  display: flex;
+  flex-direction: column;
+  height: 85lvh;
+}
+.about-me .who-is-me {
+  display: flex;
+  flex-direction: column;
+}
+.about-me .who-is-me h2 {
+  margin-bottom: 0.5rem;
+}
+.about-me .who-is-me .available {
+  color: #62617a;
+}
+.about-me .primary-cta {
+  width: 10rem;
+}
+.about-me .location {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+}
+.about-me .location img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.see a {
+  color: #6999ff;
+}
+.see a:hover {
+  color: #091486;
+  border-bottom: #6999ff solid 0.125rem;
+}
+
+.code-project-container {
+  display: inline-flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+.code-project-container .project-card {
+  padding: 0.5rem;
+  background-color: #050514;
+  border-radius: 0.5rem;
+  height: auto;
+  position: relative;
+  color: #f9f9f9;
+  width: 100%;
+  box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+}
+.code-project-container .project-card .more {
+  margin: 1rem 0;
+  gap: 0.75rem;
+}
+.code-project-container .project-card .design-img img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.code-project-container .project-card .name-of-project {
+  font-size: 1.125rem;
+  margin: 0.75rem 0;
+  font-weight: 500;
+}
+.code-project-container .project-card .description {
+  line-height: 1.6;
+  font-weight: 300;
+  color: #e4dbdb;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.code-project-container .project-card .description code {
+  color: #8c7600;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #121212;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+}
+.company .company-logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.125rem;
+  font-weight: 500;
+  height: inherit;
+}
+.company .company-logo img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+.company .duration {
+  font-style: italic;
+  font-weight: 200;
+  color: #62617a;
+}
+
+.experience {
+  margin: 4rem 0;
+}
+.experience .experience-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  .about-me {
+    margin-top: 8em;
+    gap: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 85lvh;
+  }
+  .about-me .who-is-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me .who-is-me h2 {
+    margin-bottom: 0.5rem;
+  }
+  .about-me .primary-cta {
+    width: 10rem;
+  }
+  .code-project-container {
+    display: inline-flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  .code-project-container .project-card {
+    padding: 0.5rem;
+    background-color: #050514;
+    border-radius: 0.5rem;
+    height: auto;
+    position: relative;
+    color: #f9f9f9;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .code-project-container .project-card .more {
+    margin: 1rem 0;
+    gap: 0.75rem;
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #121212;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .company .company-logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.125rem;
+    font-weight: 500;
+    height: inherit;
+  }
+  .company .company-logo img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .company .duration {
+    font-style: italic;
+    font-weight: 200;
+    color: #62617a;
+  }
+  .experience {
+    margin: 4rem 0;
+  }
+  .experience .experience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  .about-me {
+    margin-top: 8em;
+    gap: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 85lvh;
+  }
+  .about-me .who-is-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me .who-is-me h2 {
+    margin-bottom: 0.5rem;
+  }
+  .about-me .primary-cta {
+    width: 10rem;
+  }
+  .code-project-container {
+    display: inline-flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  .code-project-container .project-card {
+    padding: 0.5rem;
+    background-color: #050514;
+    border-radius: 0.5rem;
+    height: auto;
+    position: relative;
+    color: #f9f9f9;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .code-project-container .project-card .more {
+    margin: 1rem 0;
+    gap: 0.75rem;
+  }
+  .company {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: #121212;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 45%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .company .company-logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.125rem;
+    font-weight: 500;
+    height: inherit;
+  }
+  .company .company-logo img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .company .duration {
+    font-style: italic;
+    font-weight: 200;
+    color: #62617a;
+  }
+  .experience {
+    margin: 4rem 0;
+  }
+  .experience .experience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  .about-me {
+    margin-top: 8em;
+    gap: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 85lvh;
+  }
+  .about-me .who-is-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me .who-is-me h2 {
+    margin-bottom: 0.5rem;
+  }
+  .about-me .primary-cta {
+    width: 10rem;
+  }
+  .code-project-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    justify-content: space-between;
+  }
+  .code-project-container .project-card {
+    padding: 0.5rem;
+    background-color: #050514;
+    border-radius: 0.5rem;
+    height: auto;
+    position: relative;
+    color: #f9f9f9;
+    width: 47.5%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .code-project-container .project-card .more {
+    margin: 1rem 0;
+    gap: 0.75rem;
+  }
+  .company {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: #121212;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 46%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .company .company-logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.125rem;
+    font-weight: 500;
+    height: inherit;
+  }
+  .company .company-logo img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .company .duration {
+    font-style: italic;
+    font-weight: 200;
+    color: #62617a;
+  }
+  .experience {
+    margin: 4rem 0;
+    justify-content: space-between;
+  }
+  .experience .experience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 1024px) {
+  body h1,
+  body h2 {
+    font-size: 1.5rem;
+  }
+  body p {
+    font-size: 1.25rem;
+  }
+  .about-me {
+    margin-top: 8em;
+    gap: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 85lvh;
+  }
+  .about-me .who-is-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me .who-is-me h2 {
+    margin-bottom: 0.5rem;
+  }
+  .about-me .primary-cta {
+    width: 10rem;
+  }
+  .code-project-container {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    width: 100%;
+    flex-direction: row;
+  }
+  .code-project-container .project-card {
+    padding: 0.5rem;
+    background-color: #050514;
+    border-radius: 0.5rem;
+    height: auto;
+    position: relative;
+    color: #f9f9f9;
+    width: 48%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .code-project-container .project-card .more {
+    margin: 1rem 0;
+    gap: 0.75rem;
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    background-color: #121212;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 48%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .company .company-logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.125rem;
+    font-weight: 500;
+    height: inherit;
+  }
+  .company .company-logo img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .company .duration {
+    font-style: italic;
+    font-weight: 200;
+    color: #62617a;
+  }
+  .experience {
+    margin: 4rem 0;
+    justify-content: space-between;
+  }
+  .experience .experience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h1,
+  body h2 {
+    font-size: 1.675rem;
+  }
+  body p {
+    font-size: 1.375rem;
+  }
+  .about-me {
+    margin-top: 8em;
+    gap: 10vh;
+    display: flex;
+    flex-direction: column;
+    height: 85lvh;
+  }
+  .about-me .who-is-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me .who-is-me h2 {
+    margin-bottom: 0.5rem;
+  }
+  .about-me .primary-cta {
+    width: 10rem;
+  }
+  .code-project-container {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    width: 100%;
+    flex-direction: row;
+  }
+  .code-project-container .project-card {
+    padding: 0.5rem;
+    background-color: #050514;
+    border-radius: 0.5rem;
+    height: auto;
+    position: relative;
+    color: #f9f9f9;
+    width: 48%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .code-project-container .project-card .more {
+    margin: 1rem 0;
+    gap: 0.75rem;
+  }
+  .company {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    background-color: #121212;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 48%;
+    box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+  }
+  .company .company-logo {
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.125rem;
+    font-weight: 500;
+    height: inherit;
+  }
+  .company .company-logo img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  .company .duration {
+    font-style: italic;
+    font-weight: 200;
+    color: #62617a;
+  }
+  .experience {
+    margin: 4rem 0;
+    justify-content: space-between;
+  }
+  .experience .experience-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}/*# sourceMappingURL=about.css.map */

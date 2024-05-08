@@ -1,0 +1,126 @@
+a {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+
+@media screen and (min-width: 250px) and (max-width: 450px) {
+  footer {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  footer #logo {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 6rem;
+  }
+  footer #logo img {
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-links {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5vh;
+    align-items: center;
+    width: 100%;
+    margin: 2vh 0;
+    font-size: 1.25rem;
+  }
+  footer .social-icons {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  footer .social-icons img {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 600px) {
+  footer {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: #f9f9f9;
+  }
+  footer #logo {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  footer #logo img {
+    width: 8rem;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2vh 0;
+    font-size: 1.25rem;
+  }
+  footer .social-icons {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  footer .social-icons img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 600px) {
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 1.25rem 0;
+  }
+  footer #logo {
+    width: 8rem;
+  }
+  footer .a,
+  footer .b {
+    padding: 2.5rem 0;
+    gap: 2.5rem;
+    justify-content: space-between;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+  }
+}/*# sourceMappingURL=footer.css.map */
