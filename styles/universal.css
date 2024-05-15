@@ -123,6 +123,10 @@ h2 {
   background-position: center;
   background-size: cover;
 }
+.social-icons img:hover {
+  border-bottom: #e4dbdb 0.125rem solid;
+  padding-bottom: 0.25rem;
+}
 
 a {
   text-decoration: none;
@@ -216,4 +220,9 @@ i {
 
 div #logo {
   width: 8rem;
+}
+
+footer .a a:hover {
+  border-bottom: #e4dbdb 0.125rem solid;
+  padding-bottom: 0.25rem;
 }/*# sourceMappingURL=universal.css.map */

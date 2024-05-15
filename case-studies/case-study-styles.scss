@@ -1,75 +1,19 @@
 @import url(../styles/universal.css);
-.case-study-hero {
-    margin-top: 8em;
-}
-
-i {
-    font-size: 0.75rem;
-}
-
-body,
-p {
-    color: #cccc;
-    font-family: cursive;
-    line-height: 1.5;
-    font-weight: 300;
-}
-
-img {
+.case-hero {
     width: 100%;
-    height: fit-content;
-    border-radius: 0.5rem;
+    margin-top: 6em;
+    h1 {
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
 }
 
-h1,
 h2 {
-    color: #f9f9f9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-blockquote {
-    font-family: cursive;
-    line-height: 1.5;
+p {
+    font-style: normal;
     font-weight: 300;
-}
-
-.role {
-    ul {
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 8vw;
-        list-style: square;
-        padding: 0 2vw;
-    }
-}
-
-.social-icons {
-    gap: 2rem;
-    display: inline-flex;
-    flex-direction: row;
-}
-
-.secondary-cta {
-    margin: 2.5rem 0;
-    border: 0.125rem solid rgba(37, 37, 37, 0.5);
-    a {
-        color: #ccc;
-    }
-}
-
-@media screen and (min-width:250px) and (max-width:375px) {
-    .case-study-hero {
-        .image-section {
-            background-image: url(/portfolio/images/Assets/case-study-hero1.svg);
-            img {
-                height: 50vh;
-            }
-        }
-    }
-}
-
-@media screen and (min-width:375px) and (max-width:450px) {
-    body {
-        background-color: gold;
-    }
 }

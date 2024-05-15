@@ -121,6 +121,10 @@ h2 {
         border-radius: 50%;
         background-position: center;
         background-size: cover;
+        &:hover {
+            border-bottom: #e4dbdb 0.125rem solid;
+            padding-bottom: 0.25rem;
+        }
     }
 }
 
@@ -218,4 +222,15 @@ i {
 
 div #logo {
     width: 8rem;
+}
+
+footer {
+    .a {
+        a {
+            &:hover {
+                border-bottom: #e4dbdb 0.125rem solid;
+                padding-bottom: .25rem;
+            }
+        }
+    }
 }
