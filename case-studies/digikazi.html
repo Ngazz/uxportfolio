@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="case-study-styles.css">
+    <link rel="stylesheet" href="..\..\pages\COMPONENTS\navBar.css" type="text/css">
+    <title>Digi Kazi Case Study</title>
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <div class="nav-bar">
+        <div class="container">
+            <div class="nav-bar-items">
+                <div class="logo">
+                    <a href="../index.html"><img src="..\..\Images\logo.svg" alt="Logo" srcset="" type="image/svg"></a>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="../../index.html" class="active">Home</a></li>
+                    <li><a href="..\..\pages\portfolio.html">Work</a></li>
+                    <li><a href="..\..\pages\About.html">About Me</a></li>
+                    <li><a href="../../pages\Contact.html">Contacts</a></li>
+                </ul>
+
+                <div class="burger-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="case-hero">
+            <h1>Revolutionizing the informal jobs Sector. Connecting Bosses with Labourous.</h1>
+
+            <div class="subs">
+                <h2>Platform</h2>
+                <p>Mobile Application</p>
+            </div>
+
+            <div class="subs">
+                <h2>My Role</h2>
+                <p>Interaction &AMP; Visual Designer</p>
+            </div>
+
+            <div class="subs">
+                <h2>Toolkit</h2>
+                <p>Adobe XD, Framer</p>
+            </div>
+
+            <div class="subs">
+                <h2>Duration</h2>
+                <p>March 2021- August 2021</p>
+            </div>
+        </div>
+
+        <div class="project-img">
+            <img src="../Images/Search Image.jpg" alt="digiKazi" srcset="">
+        </div>
+    </div>
+
+    <!-- Section One -->
+    <div class="container">
+        <section class="one">
+
+            <div class="subs">
+                <h2>Background</h2>
+                <p>DigiKazi is a mobile application developed by ICONS Hub Kisii Developers team as a digital solution to cub the rising unemployment rate. </p>
+            </div>
+
+            <div class="subs">
+                <h2>Overview</h2>
+                <p>Research done by several organizations shows that there is scacity of formal (white colar) jobs. This has resulted to many people to shift to informal job market to counter the global rising cost of living. The informal job market pool
+                    is also flooded. There is a need for a realtime digital solution that ease the entire process of job search, and "Boss &dash; Client" connection.
+                </p>
+            </div>
+
+            <div class="subs">
+                <h2>Problem is that ...</h2>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+
+<script>
+    const navSlide = () => {
+        const burger = document.querySelector('.burger-icon');
+        const nav = document.querySelector('.nav-links');
+        const navLinks = document.querySelectorAll('.nav-links li');
+
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = ' ';
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index/7+.1}s`;
+                }
+            });
+
+            burger.classList.toggle('toggle');
+        });
+
+
+    }
+    navSlide();
+</script>
