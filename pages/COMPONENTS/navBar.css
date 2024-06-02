@@ -3,6 +3,11 @@
 .nav-bar {
   width: 100%;
 }
+.nav-bar a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 1.25rem;
+}
 
 @media screen and (min-width: 250px) and (max-width: 375px) {
   .nav-bar {
