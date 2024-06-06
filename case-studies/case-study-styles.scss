@@ -89,17 +89,10 @@ p {
     }
     .focus {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        // gap: 0.5rem;
-        flex-direction: row-reverse;
+        flex-direction: column;
+        gap: 1rem;
         .area {
-            width: 48.5%;
-            &:last-child {
-                display: block;
-                width: 100%;
-                padding: 2rem .5rem;
-            }
+            width: 100%;
         }
     }
 }
@@ -117,6 +110,7 @@ p {
     }
     .focus {
         display: flex;
+        flex-wrap: wrap;
         p {
             font-size: 1rem;
             font-weight: 300;
@@ -137,6 +131,7 @@ p {
     }
     .focus {
         display: flex;
+        flex-wrap: wrap;
         p {
             font-size: 1.025rem;
             font-weight: 300;
