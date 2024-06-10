@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pages/COMPONENTS/navBar.css">
+    <link rel="stylesheet" href="case-study-styles.css">
+    <title>Portal Case study</title>
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <div class="nav-bar">
+        <div class="container">
+            <div class="nav-bar-items">
+                <div class="logo">
+                    <a href="../index.html"><img src="..\..\Images\logo.svg" alt="Logo" srcset="" type="image/svg"></a>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="../../index.html" class="active">Home</a></li>
+                    <li><a href="..\..\pages\portfolio.html">Work</a></li>
+                    <li><a href="..\..\pages\About.html">About Me</a></li>
+                    <li><a href="../../pages\Contact.html">Contacts</a></li>
+                </ul>
+
+                <div class="burger-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="container">
+        <div class="case-hero">
+            <H1>Kisii university Student portal Redesign, Enhancing a great user experience.</H1>
+        </div>
+
+        <div class="subs">
+            <h2>Platform</h2>
+            <p>Web Application</p>
+        </div>
+
+        <div class="subs">
+            <h2>My Role</h2>
+            <p>Interface &amp; Interaction Designer </p>
+        </div>
+
+        <div class="subs">
+            <h2>Toolkit</h2>
+            <p>Figma, Figjam</p>
+        </div>
+
+        <div class="subs">
+            <h2>Timeline</h2>
+            <p>July 2020</p>
+        </div>
+
+        <div class="project-img">
+            <img src="../Images/donor.jpg" alt="Portal" srcset="">
+        </div>
+    </div>
+
+    <!--ONE -->
+    <div class="container">
+        <section class="one">
+
+            <div class="subs">
+                <h2>Background</h2>
+                <p>
+                    Kisii University student portal was developed by a company known as ABNO Softwares International. In a spam of five years, it has recieved only one interface design update. From a far observation, it can be assumed that the stakeholders hold to a phrase,
+                    "If it is working; do not touch it".
+                </p>
+            </div>
+
+            <div class="subs">
+                <h2>Overview</h2>
+                <p>
+                    Before the 2020 Covid 19 Pandemic, Kisii University had not fully utilized the capability of its online and portal platform. The Pandemic forced fully adoption and reliance of the online platform including student portal. This approach was constantly
+                    rejected by students and staffs with a fear of uncertainty.
+                </p>
+            </div>
+
+            <div class="subs">
+                <h2>Pain points</h2>
+                <p>
+                    The overal User experience of the platform is considered poor. Similarly, there were other problems such as constant downtime rendering portal services unavailable or inaccessible.
+                </p>
+            </div>
+
+            <div class="subs">
+                <h2>Research &dash; Let's find how</h2>
+                <p>
+                    Being one of the Portal users, I outlined my goals and compaired to other students' goals, and determined their intersection.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Two -->
+    <div class="container">
+        <section class="two">
+
+            <div class="subs">
+                <h2> User flow</h2>
+                <div class="visuals">
+                    <img src="../Images/Four.png" alt="user-journey" srcset="">
+                </div>
+            </div>
+
+            <div class="subs">
+                <h2>User goals</h2>
+                <div class="focus">
+                    <div class="area blue">
+                        <p>Report for session on time &dash; within two weeks after session reporting is open.</p>
+                    </div>
+                    <div class="area purple">
+                        <p>Book for acomodation in the institution's hostels. Booking is done prior to official reopenning of the institution after a closure at the end of every semester.</p>
+                    </div>
+
+                    <div class="area white">
+                        <p>Register for Units, special examination, Apply for retakes and other failed units; together with viewing for examination results and transcripts.</p>
+                    </div>
+
+                    <div class="area yellow">
+                        <p>
+                            View outstanding fee balances. Accessing fee statement and Fee structure for each academic year.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Three -->
+    <div class="container">
+        <section class="three">
+
+            <div class="subs">
+                <h2>Before Re-design</h2>
+                <div class="visuals">
+                    <img src="../images/Hero-Section-prototype.png" alt="before Re-design" srcset="">
+                </div>
+            </div>
+
+            <div class="subs">
+                <h2>After Redesign</h2>
+                <div class="visuals">
+                    <img src="../images/dribble.svg" alt="Re-design" srcset="">
+                </div>
+            </div>
+
+            <div class="subs">
+                <h2>Looking Back</h2>
+                <p>
+                    This being among my first introductory design project practice with an aim to solve an existing problem; I believe there is still some misses and catches in it. I take delight in it as it constantly reminds me where I first begun and serves as a motivation
+                    to keeping an eye on every detail, and always be a user champion.
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+
+<script>
+    const navSlide = () => {
+        const burger = document.querySelector('.burger-icon');
+        const nav = document.querySelector('.nav-links');
+        const navLinks = document.querySelectorAll('.nav-links li');
+
+
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = ' ';
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index/7+.1}s`;
+                }
+            });
+
+            burger.classList.toggle('toggle');
+        });
+
+
+    }
+    navSlide();
+</script>

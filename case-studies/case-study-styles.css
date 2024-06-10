@@ -43,7 +43,12 @@ p {
   color: #dfdfe0;
 }
 
-.project-img {
+.project-img,
+.visuals {
+  padding: 1.025rem 0;
+}
+
+.subs {
   padding: 1.025rem 0;
 }
 
