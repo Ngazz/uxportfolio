@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     .card {
-        background-color: #050514;
+        background-color: #121212;
         padding: 0.5rem;
         border-radius: 0.5rem;
         height: auto;
@@ -117,7 +117,7 @@
         justify-content: center;
         align-items: center;
         .card {
-            background-color: #050514;
+            background-color: #121212;
             padding: 0.5rem;
             border-radius: 0.5rem;
             height: auto;
@@ -286,14 +286,12 @@
         .brand-identity-cards {
             display: flex;
             flex-direction: row;
-            // flex-wrap: wrap;
             width: 100%;
-            // gap: 1.5rem;
             align-items: center;
             justify-content: space-between;
         }
         img {
-            width: 47%;
+            width: 48%;
         }
     }
 }

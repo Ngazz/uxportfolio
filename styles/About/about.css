@@ -5,10 +5,10 @@
 
 .about-me {
   margin-top: 8em;
-  gap: 10vh;
+  gap: 5vh;
   display: flex;
   flex-direction: column;
-  height: 85lvh;
+  height: 86lvh;
 }
 .about-me .who-is-me {
   display: flex;
@@ -123,7 +123,7 @@
 @media screen and (min-width: 375px) and (max-width: 450px) {
   .about-me {
     margin-top: 8em;
-    gap: 10vh;
+    gap: 5vh;
     display: flex;
     flex-direction: column;
     height: 85lvh;
@@ -196,7 +196,7 @@
 @media screen and (min-width: 450px) and (max-width: 550px) {
   .about-me {
     margin-top: 8em;
-    gap: 10vh;
+    gap: 5vh;
     display: flex;
     flex-direction: column;
     height: 85lvh;
@@ -270,7 +270,7 @@
 @media screen and (min-width: 550px) and (max-width: 650px) {
   .about-me {
     margin-top: 8em;
-    gap: 10vh;
+    gap: 5vh;
     display: flex;
     flex-direction: column;
     height: 85lvh;
@@ -353,10 +353,10 @@
   }
   .about-me {
     margin-top: 8em;
-    gap: 10vh;
+    gap: 5vh;
     display: flex;
     flex-direction: column;
-    height: 85lvh;
+    height: 80lvh;
   }
   .about-me .who-is-me {
     display: flex;
@@ -439,10 +439,10 @@
   }
   .about-me {
     margin-top: 8em;
-    gap: 10vh;
+    gap: 5vh;
     display: flex;
     flex-direction: column;
-    height: 85lvh;
+    height: 80lvh;
   }
   .about-me .who-is-me {
     display: flex;

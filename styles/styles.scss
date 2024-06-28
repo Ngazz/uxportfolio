@@ -6,15 +6,16 @@
     }
 }
 
+.send-mail h1 {
+    font-size: 1.5rem;
+}
+
 @media screen and (min-width:250px) and (max-width:375px) {
     p {
         margin: 1.5rem 0;
         font-size: 1rem;
     }
     .hero {
-        .greeting {
-            font-size: 1rem;
-        }
         .description {
             font-size: 1.25rem;
         }
@@ -31,7 +32,7 @@
     .send-mail {
         margin: 4rem 0;
         p {
-            font-size: 1rem;
+            font-size: 1.125rem;
         }
         .email-me-cta {
             display: flex;
@@ -51,9 +52,6 @@
         font-size: 1rem;
     }
     .hero {
-        .greeting {
-            font-size: 1rem;
-        }
         .description {
             font-size: 1.25rem;
         }
@@ -70,7 +68,7 @@
     .send-mail {
         margin: 5vh 0;
         p {
-            font-size: 1rem;
+            font-size: 1.125rem;
         }
         .email-me-cta {
             display: flex;
@@ -90,9 +88,6 @@
         font-size: 1rem;
     }
     .hero {
-        .greeting {
-            font-size: 1rem;
-        }
         .description {
             font-size: 1.25rem;
         }
@@ -109,7 +104,7 @@
     .send-mail {
         margin: 5vh 0;
         p {
-            font-size: 1rem;
+            font-size: 1.125rem;
         }
         .email-me-cta {
             display: flex;
@@ -130,9 +125,6 @@
     }
     .hero {
         gap: 8vh;
-        .greeting {
-            font-size: 1rem;
-        }
         .description {
             font-size: 1.25rem;
         }
@@ -156,7 +148,7 @@
     .send-mail {
         margin: 10vh 0;
         p {
-            font-size: 1rem;
+            font-size: 1.125rem;
         }
         .email-me-cta {
             display: flex;
@@ -177,9 +169,6 @@
     }
     .hero {
         gap: 8vh;
-        .greeting {
-            font-size: 1rem;
-        }
         .description {
             font-size: 1.25rem;
         }
@@ -203,7 +192,7 @@
     .send-mail {
         margin: 10vh 0;
         p {
-            font-size: 1rem;
+            font-size: 1.125rem;
         }
         .email-me-cta {
             display: flex;

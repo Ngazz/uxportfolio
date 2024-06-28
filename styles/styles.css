@@ -6,12 +6,13 @@
   width: 2.5rem;
 }
 
+.send-mail h1 {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 250px) and (max-width: 375px) {
   p {
     margin: 1.5rem 0;
-    font-size: 1rem;
-  }
-  .hero .greeting {
     font-size: 1rem;
   }
   .hero .description {
@@ -30,7 +31,7 @@
     margin: 4rem 0;
   }
   .send-mail p {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .send-mail .email-me-cta {
     display: flex;
@@ -45,9 +46,6 @@
 @media screen and (min-width: 375px) and (max-width: 450px) {
   p {
     margin: 1.5rem 0;
-    font-size: 1rem;
-  }
-  .hero .greeting {
     font-size: 1rem;
   }
   .hero .description {
@@ -66,7 +64,7 @@
     margin: 5vh 0;
   }
   .send-mail p {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .send-mail .email-me-cta {
     display: flex;
@@ -81,9 +79,6 @@
 @media screen and (min-width: 450px) and (max-width: 550px) {
   p {
     margin: 1.5rem 0;
-    font-size: 1rem;
-  }
-  .hero .greeting {
     font-size: 1rem;
   }
   .hero .description {
@@ -102,7 +97,7 @@
     margin: 5vh 0;
   }
   .send-mail p {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .send-mail .email-me-cta {
     display: flex;
@@ -122,9 +117,6 @@
   .hero {
     gap: 8vh;
   }
-  .hero .greeting {
-    font-size: 1rem;
-  }
   .hero .description {
     font-size: 1.25rem;
   }
@@ -146,7 +138,7 @@
     margin: 10vh 0;
   }
   .send-mail p {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .send-mail .email-me-cta {
     display: flex;
@@ -166,9 +158,6 @@
   .hero {
     gap: 8vh;
   }
-  .hero .greeting {
-    font-size: 1rem;
-  }
   .hero .description {
     font-size: 1.25rem;
   }
@@ -190,7 +179,7 @@
     margin: 10vh 0;
   }
   .send-mail p {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
   .send-mail .email-me-cta {
     display: flex;

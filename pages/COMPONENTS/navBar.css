@@ -297,7 +297,6 @@
     align-items: center;
     text-align: center;
     z-index: 999;
-    padding: 0.75rem 0;
   }
   .nav-bar .nav-bar-items .logo {
     width: 6rem;
@@ -490,7 +489,6 @@
     align-items: center;
     text-align: center;
     transition: transform 0.5 ease-in-out;
-    padding: 2vh;
     gap: 10vh;
     width: 100%;
     justify-content: flex-end;
@@ -513,8 +511,8 @@
   }
   .nav-bar .nav-bar-items .nav-links li a:hover {
     border-bottom: #62617a solid 0.125rem;
-    transition: transform 0.5s ease-in;
-    padding-bottom: 0.25rem;
+    transition: all 0.05s ease-in-out;
+    padding-bottom: 0.125rem;
   }
   .nav-bar .nav-bar-items .burger-icon div {
     height: 0.0625rem;

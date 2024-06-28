@@ -7,7 +7,7 @@
   align-items: center;
 }
 .work-cards-section .card {
-  background-color: #050514;
+  background-color: #121212;
   padding: 0.5rem;
   border-radius: 0.5rem;
   height: auto;
@@ -113,7 +113,7 @@
     align-items: center;
   }
   .work-cards-section .card {
-    background-color: #050514;
+    background-color: #121212;
     padding: 0.5rem;
     border-radius: 0.5rem;
     height: auto;
@@ -283,6 +283,6 @@
     justify-content: space-between;
   }
   .brand-identity img {
-    width: 47%;
+    width: 48%;
   }
 }/*# sourceMappingURL=work.css.map */
