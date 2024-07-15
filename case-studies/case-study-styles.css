@@ -17,6 +17,17 @@ p {
   font-weight: 300;
 }
 
+.goal {
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.goal p {
+  font-weight: inherit;
+}
+.goal img {
+  width: 1.5rem;
+}
+
 .interview {
   display: flex;
   flex-direction: column;
@@ -32,6 +43,10 @@ p {
 .interview .card .label {
   display: inline-flex;
   flex-direction: row;
+  gap: 1rem;
+}
+.interview .card .label img {
+  width: 1.5rem;
 }
 
 .area {

@@ -17,6 +17,17 @@ p {
     font-weight: 300;
 }
 
+.goal {
+    gap: 1rem;
+    padding: 1rem 0;
+    p {
+        font-weight: inherit;
+    }
+    img {
+        width: 1.5rem;
+    }
+}
+
 .interview {
     display: flex;
     flex-direction: column;
@@ -30,6 +41,10 @@ p {
         .label {
             display: inline-flex;
             flex-direction: row;
+            gap: 1rem;
+            img {
+                width: 1.5rem;
+            }
         }
     }
 }
@@ -37,7 +52,7 @@ p {
 .area {
     background-color: rgb(18, 5, 137);
     padding: 0.75rem;
-    // box-shadow: 4px 4px 5px 0px rgba(18, 5, 137, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+    //box-shadow: 4px 4px 5px 0px rgba(18, 5, 137, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
     background-repeat: repeat;
     border-radius: 0.125rem;
     width: 50%;
