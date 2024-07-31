@@ -35,11 +35,11 @@
 }
 
 .see a {
-  color: #6999ff;
+  color: #9a1eab;
 }
 .see a:hover {
   color: #091486;
-  border-bottom: #6999ff solid 0.125rem;
+  border-bottom: #9a1eab solid 0.125rem;
 }
 
 .code-project-container {
