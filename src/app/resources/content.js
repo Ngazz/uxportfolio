@@ -14,7 +14,7 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: < React.Fragment > Talk to { person.firstName } < /React.Fragment>,
+    title: <React.Fragment> Talk to { person.firstName } </React.Fragment>,
     description: < > I like to Talk.I like to engage with brilliant minds like yourself about how we can build the next great project together.I 'm just a call away! </>
 }
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: < > Design engineer < />,
-    subline: < > I 'm Ngahu, a Graphics and UX design engineer. I delight in crafting intuitive user experiences. After hours, I build my own projects.</>
+    headline: <> Design engineer </>,
+    subline: <> I 'm Ngahu, a Graphics and UX design engineer. I delight in crafting intuitive user experiences. After hours, I build my own projects.</>
 }
 
 const about = {
@@ -69,11 +69,11 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: < > Ngahu is a Kenyan - based design engineer with a passion
+        description: <> Ngahu is a Kenyan - based design engineer with a passion
         for transforming complex challenges into simple,
         elegant design solutions.His work spans digital interfaces,
         interactive and creative experiences,
-        and the convergence of design and technology. < />
+        and the convergence of design and technology. </>
     },
     work: {
         display: true, // set to false to hide this section
@@ -82,10 +82,11 @@ const about = {
                 company: 'Freelance Designer',
                 timeframe: '2023 - Present',
                 role: 'Grapics and UX Design Engineer',
-                achievements: [ < >
+                achievements: [ <>
                     Designed the UI / UX
-                    for the Denloy Inv.Ltd.Point of Sale System(POS), resulting in a 40 % increase efficiency on tracking operation of multiple shops. < />, < >
-                    Spearheaded a unified data driven strategy with a real - time insights in sales, customer trends and inventory levels across multiple shops, enabling informed business decisions. < />
+                    for the Denloy Inv.Ltd.Point of Sale System(POS), resulting in a 40 % increase efficiency on tracking operation of multiple shops. </>, 
+
+                    <>Spearheaded a unified data driven strategy with a real - time insights in sales, customer trends and inventory levels across multiple shops, enabling informed business decisions. </>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
@@ -100,9 +101,9 @@ const about = {
                 company: 'ICONS Hub, Kisii',
                 timeframe: '2022 - 2023',
                 role: 'UX Designer',
-                achievements: [ < >
-                    Developed a design system that unified the brand across multiple platforms, improving design consistency by 20 % . < />, < >
-                    Redesigned the main ICONS Hub website improving its user experience and 25 % faster load time. < />
+                achievements: [ <>
+                    Developed a design system that unified the brand across multiple platforms, improving design consistency by 20 % . </>, <>
+                    Redesigned the main ICONS Hub website improving its user experience and 25 % faster load time. </>
                 ],
                 images: []
             }
@@ -113,12 +114,12 @@ const about = {
         title: 'Studies',
         institutions: [{
                 name: 'Kisii University',
-                description: < > Studied software engineering. < />,
+                description: <> Studied software engineering. </>,
             },
             {
                 name: 'Google Market Garage',
-                description: < > Studied digital marketing,
-                branding and Search Engine Optimization. < />,
+                description: <> Studied digital marketing,
+                branding and Search Engine Optimization. </>,
             }
         ]
     },
@@ -127,8 +128,8 @@ const about = {
         title: 'Technical skills',
         skills: [{
                 title: 'Prototyping',
-                description: < > Able to prototype in: Figma,
-                Sketch and Adobe Create Suite with unnatural speed. < />,
+                description: <> Able to prototype in: Figma,
+                Sketch and Adobe Create Suite with unnatural speed. </>,
                 // optional: leave the array empty if you don't want to display images
                 images: [{
                         src: '/images/projects/project-01/cover-02.jpg',
@@ -146,7 +147,7 @@ const about = {
             },
             {
                 title: 'Web Development',
-                description: < > Building next gen web apps with Next.js + React.js + MySQL. < />,
+                description: <> Building next gen web apps with Next.js + React.js + MySQL. </>,
                     // optional: leave the array empty if you don't want to display images
                 images: [{
                     src: '/images/projects/project-01/cover-04.jpg',
