@@ -14,7 +14,7 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: <> Talk to { person.firstName } <>,
+    title: <> Talk to { person.firstName } </>,
     description: <> I like to Talk.I like to engage with brilliant minds like yourself about how we can build the next great project together.I 'm just a call away! </>
 }
 
