@@ -9,13 +9,13 @@ const person = {
     role: 'Design Engineer',
     avatar: '/images/avatar.jpg',
     location: 'Africa/Nairobi', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Swahili '] // optional: Leave the array empty if you don't want to display languages
+    languages: ['English', 'Swahili'] // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
     display: true,
-    title: < > Talk to { person.firstName } < />,
-    description: < > I like to Talk.I like to engage with brilliant minds like yourself about how we can build the next great project together.I 'm just a call away! < />
+    title: < > Talk to { person.firstName } < /> ,
+    description: < > I like to Talk.I like to engage with brilliant minds like yourself about how we can build the next great project together.I 'm just a call away! </>
 }
 
 const social = [
@@ -160,6 +160,9 @@ const about = {
     }
 }
 
+const blog {
+
+}
 
 const work = {
     label: 'Work',
@@ -247,4 +250,4 @@ const gallery = {
     ]
 }
 
-export { person, social, newsletter, home, about, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery };
