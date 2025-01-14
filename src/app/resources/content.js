@@ -82,8 +82,7 @@ const about = {
                 company: 'Freelance Designer',
                 timeframe: '2023 - Present',
                 role: 'Grapics and UX Design Engineer',
-                achievements: [ <
-                    >
+                achievements: [ < >
                     Designed the UI / UX
                     for the Denloy Inv.Ltd.Point of Sale System(POS), resulting in a 40 % increase efficiency on tracking operation of multiple shops. < />, < >
                     Spearheaded a unified data driven strategy with a real - time insights in sales, customer trends and inventory levels across multiple shops, enabling informed business decisions. < />
