@@ -14,7 +14,7 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: < > Talk to { person.firstName } < /> ,
+    title: < > Talk to { person.firstName } < />,
     description: < > I like to Talk.I like to engage with brilliant minds like yourself about how we can build the next great project together.I 'm just a call away! </>
 }
 
@@ -161,7 +161,11 @@ const about = {
 }
 
 const blog {
-
+    label: 'Blog',
+    title: 'Writing about design and tech...',
+    description: `Read what ${person.name} has been up to recently`
+        // Create new blog posts by adding a new .mdx file to app/blog/posts
+        // All posts will be listed on the /blog route
 }
 
 const work = {
