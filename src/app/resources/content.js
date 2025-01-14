@@ -14,8 +14,8 @@ const person = {
 
 const newsletter = {
     display: true,
-    title: <React.Fragment> Talk to { person.firstName } </React.Fragment>,
-    description: < > I like to Talk.I like to engage with brilliant minds like yourself about how we can build the next great project together.I 'm just a call away! </>
+    title: <> Talk to { person.firstName } <>,
+    description: <> I like to Talk.I like to engage with brilliant minds like yourself about how we can build the next great project together.I 'm just a call away! </>
 }
 
 const social = [
@@ -85,8 +85,7 @@ const about = {
                 achievements: [ <>
                     Designed the UI / UX
                     for the Denloy Inv.Ltd.Point of Sale System(POS), resulting in a 40 % increase efficiency on tracking operation of multiple shops. </>, 
-
-                    <>Spearheaded a unified data driven strategy with a real - time insights in sales, customer trends and inventory levels across multiple shops, enabling informed business decisions. </>
+                    <>Spearheaded a unified data driven strategy with a real - time insights in sales, customer trends and inventory levels across multiple shops, enabling informed business decisions. < />
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
@@ -128,7 +127,7 @@ const about = {
         title: 'Technical skills',
         skills: [{
                 title: 'Prototyping',
-                description: <> Able to prototype in: Figma,
+                description: < > Able to prototype in: Figma,
                 Sketch and Adobe Create Suite with unnatural speed. </>,
                 // optional: leave the array empty if you don't want to display images
                 images: [{
